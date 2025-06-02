@@ -9,7 +9,7 @@ Molempia materiaaleja voi käyttää ilman aikaisempaa kokemusta ja materiaaleja
 
 Materiaali on tarkoitettu pääasiassa tiedeluokka Linkin Python-ohjelmointikerho aloittelijoille käyttöön, mutta sitä saa vapaasti käyttää kuka tahansa.
 
-Huomioithan, että materiaali on tällä hetkellä keskeneräinen! Erityisesti Pyglet-materiaaleissa on vajavaisuuksia.
+Huomioithan, että materiaali on keskeneräinen. Erityisesti Pyglet-materiaaleissa on joitain vajavaisuuksia. Päivitämme materiaalia jatkuvasti.
 
 Materiaalin on tuottanut Helsingin yliopiston tiedeluokka Linkki. Jos sivuilla on virheitä tai haluat antaa palautetta muuten, laita sähköpostia osoitteeseen linkki.cs.helsinki.fi
 
