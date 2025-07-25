@@ -23,9 +23,15 @@ body {
     margin: 0;
 }
 
-/*
- Code box styiling
-*/
+pre {
+  background-color: #c5fcae;
+  color: #000000;
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid #65f826;
+  overflow-x: auto;
+}
+
 .highlight .syntax {
     border: 1px solid black;
     border-radius: 8px;
