@@ -10,9 +10,19 @@ Kun haluamme ohjelman kirjoittavan jotain terminaalii, käytetään komentoa ```
 
 ## Luvut ja merkkijonot
 
-Kun tietokone käsittelee tietoa, sille on tärkeää millainen tieto on kyseessä. Erilaisia tietoja ovat muun muassa luvut, kuten kokonaisluvut, ja teksti, jota kutsutaan merkkijonoksi. Pythonissa kun muuttujaan tallettaa tietoa, tietokone päättelee annetusta tiedosta automaattisesti tietotyypin. Esimerkiksi koodista ```x = 1```, tietokone osaa päätellä, että ```x``` on kokonaisluku, koska ```1``` on kokonaisluku. Tekstin eli merkkijonot se tunnistaa tekstin ympärillä olevista lainausmerkeistä, esim. ```y = "sana"```. Jos tekstin kirjoittaa ilman lainausmerkkejä, tietokone ei ymmärrä kyseessä olevan tekstiä, vaan ajattelee sen olevan komento tai muuttuja. Tällöin ohjelma ei suoritu oikein.
+Kun tietokone käsittelee tietoa, sille on tärkeää millainen tieto on kyseessä. Erilaisia tietoja ovat muun muassa **luvut**, kuten kokonaisluvut, ja teksti, jota kutsutaan **merkkijonoksi**. Pythonissa kun muuttujaan tallettaa tietoa, tietokone päättelee annetusta tiedosta automaattisesti tietotyypin. Esimerkiksi koodista ```x = 1```, tietokone osaa päätellä, että ```x``` on kokonaisluku, koska ```1``` on kokonaisluku. Tekstin eli merkkijonot se tunnistaa tekstin ympärillä olevista lainausmerkeistä, esim. ```y = "sana"```. Jos tekstin kirjoittaa ilman lainausmerkkejä, tietokone ei ymmärrä kyseessä olevan tekstiä, vaan ajattelee sen olevan komento tai muuttuja. Tällöin ohjelma ei suoritu oikein.
 
-Myös merkkijonoja voi laskea yhteen, mutta niitä ei voi vähentää, kertoa tai jakaa. Merkkijonojen yhteenlasku yhdistää kaksi merkkijonoa. Myös muuttujia, joiden arvo on merkkijono, voidaan laskea yhteen merkkijonojen kanssa. Esim. jos meillä on muuttuja ```nimi = "Kaneli"```, voimme yhdistää ```"Moikka " + nimi```, jolloin saamme merkkijonon ```"Moikka Kaneli"```.
+Myös merkkijonoja voi laskea yhteen, mutta niitä ei voi vähentää tai jakaa. Niitä voi myös kertoa kokonaisluvuilla. Merkkijonojen yhteenlasku yhdistää kaksi merkkijonoa ja kertominen toistaa samaa merkkijonoa annetun luvun verran. Myös muuttujia, joiden arvo on merkkijono, voidaan laskea yhteen merkkijonojen kanssa.
+
+**Esimerkkejä:**
+
+```Python3
+nimi = Kaneli
+
+"Moikka " + nimi                        # saamme merkkijonon "Moikka Kaneli"
+"Tuo " + nimi + " pitää sammakoista"    # saamme merkkijonon "Tuo Kaneli pitää sammakoista"
+nimi*3                                  # saamme merkkijonon "KaneliKaneliKaneli"
+```
 
 
 ## Esimerkkejä
@@ -20,11 +30,11 @@ Myös merkkijonoja voi laskea yhteen, mutta niitä ei voi vähentää, kertoa ta
 | koodi | mitä tekee |
 | ----- | ---------- |
 | print("moikka") |tulostaa terminaaliin viestin _moikka_ |
-|print(2)| tulostaa terminaaliin _2_ |
+| print(2)| tulostaa terminaaliin _2_ |
 | print(2+2) | tulostaa terminaaliin _4_ |
 | print("2+2") | tulostaa terminaaliin _2+2_ |
 | print(muuttuja) | tulostaan terminaaliin muuttujan arvon |
-| print("muuttuja") | tulostaa terminaaliin _muuttuja_ |
+| print("muuttuja") | tulostaa terminaaliin tekstin _muuttuja_ |
 | print("moi" + "kka") | tulostaa terminaaliin _moikka_ |
 
 ## Tehtävät
