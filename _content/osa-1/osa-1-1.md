@@ -2,11 +2,25 @@
 
 ## Terminaali
 
-Kun avaat IDLE:n, ensimmäisenä eteesi avautuu Pythonin terminaali. Terminaaliiin voi kirjoittaa yksittäisiä komentoja ja ne suorittuvat heti. Kokeillaan hiukan miten terminaali toimii!
+Kun avaat IDLE:n, ensimmäisenä eteesi avautuu Pythonin terminaali. Terminaaliin voi kirjoittaa yksittäisiä komentoja ja ne suorittuvat heti. Kokeillaan hiukan miten terminaali toimii!
 
 ## Laskutoimitukset
 
-Yksinkertaisimmat komennot, joita terminaaliin voi kirjoittaa, ovat erilaiset laskutoimitukset. Pythonilla voi laskea helposti vaikkapa yhteen-, vähennys-, kerto ja jakolaskuja. Erilaiset laskutoimitukset ovat tärkeitä myös monimutkaisemmissa ohjelmissa.
+Yksinkertaisimmat komennot, joita terminaaliin voi kirjoittaa, ovat erilaiset laskutoimitukset. Pythonilla voi laskea helposti vaikkapa yhteen-, vähennys-, kerto ja jakolaskuja. Erilaiset laskutoimitukset ovat tärkeitä myös monimutkaisemmissa ohjelmissa.  
+
+**Kopioi seuraavat laskut ja laske ne omalla koneellasi. Mitä ne tulostavat?**  
+
+```Python3
+1+1
+```
+
+```Python3
+3*3
+```
+
+```Python3
+400+32*13-8/2
+```
 
 ## Muuttujat
 
@@ -19,7 +33,11 @@ Muuttujan arvoa voi myös muuttaa myöhemmin samalla tavalla. ```luku = 17``` lu
 Kun myöhemmin koodissamme kirjoitamme muuttujamme nimen, tietokone etsii muistista muuttujan arvon ja käyttää sitä.
 
 
-<img src="kuvat/muuttujalaatikko.png" height=400/>
+<img src="kuvat/muuttujalaatikko.png" height=400/>  
+
+**Muuttujien käyttämistä Pythonin terminaalissa:**
+
+<img src="kuvat/muuttuja_terminalissa.png"/>
 
 
 ## Esimerkkejä
