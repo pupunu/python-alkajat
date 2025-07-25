@@ -2,7 +2,7 @@
 
 ## Käyttäjän syöte
 
-Kun haluamme saada tietoa ohjelman käyttäjältä, voimme käyttää komentoa `input()`. Tämän komennon jälkeen, kun terminaaliin kirjoittaa jotain ja painaa rivinvaihtoa, kirjoitettu asia tulee ohjelman käyttöön. Tätä kirjoitettua asiaa kutsutaan syötteeksi. Syöte on ohjelman ulkopuolelta ohjelmalle annettua tietoa.
+Kun haluamme saada tietoa ohjelman käyttäjältä, voimme käyttää komentoa `input()`. Tämän komennon jälkeen, kun terminaaliin kirjoittaa jotain ja painaa rivinvaihtoa, kirjoitettu asia tulee ohjelman käyttöön. Tätä kirjoitettua asiaa kutsutaan **syötteeksi**. Syöte on ohjelman ulkopuolelta ohjelmalle annettua tietoa.
 
 ## Tietotyyppien muuttaminen
 
@@ -17,12 +17,26 @@ Vastaavasti kokonaisluvut voi muuttaa merkkijonoiksi komennolla `str()`, joka on
 | koodi | mitä tekee |
 | ----- | ---------- |
 | vastaus = input() | tallentaa käyttäjän syötteen muuttujaan _vastaus_ |
-| nimi = input("Mikä on nimesi?") | kirjoittaa terminaaliin _Mikä on nimsesi?_ ja tallentaa muuttujaan käyttäjän syötteen muuttujaan _nimi_|
-|int("42")| muuttaa merkkijonon "42" kokonaisluvuksi 42|
-|int(vastaus) | muuttaa muuttujan _vastaus_ arvon kokonaisluvuksi (jos se on mahdollista)|
-|int( input() )| muuttaa syötteen kokonaisluvuksi |
+| nimi = input("Mikä on nimesi?") | kirjoittaa terminaaliin _Mikä on nimesi?_ ja tallentaa muuttujaan käyttäjän syötteen muuttujaan _nimi_|
+| int("42")| muuttaa merkkijonon "42" kokonaisluvuksi 42|
+| int(vastaus) | muuttaa muuttujan _vastaus_ arvon kokonaisluvuksi (jos se on mahdollista)|
+| int( input() )| muuttaa syötteen kokonaisluvuksi |
 | str(1) | muuttaa kokonaisluvun 1 merkkijonoksi "1"|
 | str(luku) | muuttaa muuttujassa _luku_ olevan arvon merkkijonoksi |
+
+**Esimerkkiohjelma**
+
+```Python3
+luku = input("anna luku: ")         # kysyy käyttäjältä luvun
+
+# ohjelma etenee alla oleviin koodeihin vasta kun käyttäjä on syöttänyt luvun
+
+print(luku)                         # tulostaa annetun luvun
+print(luku*2)                       # tulostaa luvun kaksi kertaa peräkkäin
+print(int(luku)*2)                  # kertoo luvun kahdella ja tulostaa laskun tuloksen
+
+# mitä tapahtuu jos käyttäjä antaa syötteeksi merkkijonon?
+```
 
 ## Tehtävät
 
