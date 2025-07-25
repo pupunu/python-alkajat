@@ -4,7 +4,7 @@ Kun haluamme, että ohjelma tekee jotain vain tietyssä tilanteessa, tarvitsemme
 
 ## if (jos)
 
-Tehdään ohjelma, joka kysyy käyttäjältä vihannesta ja **jos vihannes on sipuli**, tulostaa terminaaliin _silmiä kirvelee_. Tämä tehdään seuraavasti:
+Tehdään ohjelma, joka kysyy käyttäjältä vihannesta ja tarkistaa **jos vihannes on sipuli**. Tämän jälkeen se tulostaa terminaaliin tekstin _silmiä kirvelee_, jos vihannes oli sipuli. Tämä tehdään seuraavasti:
 
 ```Python3
 vihannes = input("sano vihannes")
@@ -12,11 +12,11 @@ if vihannes == "sipuli":
     print("silmiä kirvelee")
 ```
 
-if-rakenteessa on ensin komento if ja sitä seuraa vertailu. Vertailun jälkeen on kaksoispiste.
+if-rakenteessa on ensin komento ```if``` ja sitä seuraa vertailu. Vertailun jälkeen on kaksoispiste.
 
 Jos annettu vihannes oli sipuli, siirrytään if-rakenteen sisään ja toteutetaan ```print("silmiä kirvelee")```. Jos vihannes ei ollut sipuli, hypätään sisennetyn koodin yli ja terminaaliin ei tulostu mitään.
 
-Sisennys on tärkeä, koska se kertoo tietokoneelle, että ```print("silmiä kirvelee")``` on if-rakenteen sisällä.
+**Sisennys on tärkeä, koska se kertoo tietokoneelle, että ```print("silmiä kirvelee")``` on if-rakenteen sisällä.**
 
 ## else (muussa tapauksessa)
 
@@ -62,7 +62,15 @@ Nyt jos vihannes on sipuli, tulostuu terminaaliin _silmiä kirvelee_. Tai jos vi
 
 1. Alla on kivi-sakset-paperipelin koodi. Kopioi alla oleva koodi ja täydennä puuttuvat kohdat.
 
+    - Mitä koodi tulostaa heti kopioinnin jälkeen? Miksi? _Vihje: Mitä punainen virheilmoitus sanoo?_ 
+
 ```Python3
+muuttuja = input("kivi, sakset, paperi? ")
 
-
+if ____ == "kivi":
+    print("Voitit!")
+elif muuttuja == sakset:
+    print("Tasapeli!")
+elif muuttuja != "paperi"
+print(hävisit)
 ```
